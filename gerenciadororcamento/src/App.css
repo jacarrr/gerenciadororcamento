@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #2c3e50;
+  line-height: 1.6;
+  padding: 0 15%;
+}
+
+header {
+  background: #ff9d92;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+
+header button {
+  margin: 0 15px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #c0392b;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+header button:hover {
+  background: #a52a2a;
+  transform: scale(1.05);
+}
+
+form {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type= "number"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type= "number"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border-color: #c0392b;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background: #c0392b;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #a52a2a;
+  transform: scale(1.05);
+}
+
+p {
+  text-align: center;
+  color: #c0392b;
+}
+
+footer {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 16px;
+  color: #95a5a6;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
